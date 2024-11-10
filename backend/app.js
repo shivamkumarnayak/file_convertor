@@ -10,7 +10,7 @@ dotenv.config({ path: "./config/config.env" });
 const app = express();
 app.use(cors(
   {
-    origin: 'https://playwithfile.netlify.app'
+    origin: 'https://playwithfile.easytechstack.com/'
   }
 ));  // Allow cross-origin requests from React
 
