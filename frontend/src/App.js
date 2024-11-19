@@ -13,7 +13,7 @@ function App() {
         
         <Routes>
           <Route path="/" element={<ExcelToPDF />} />
-          {/* <Route path="/word-to-pdf" element={<WordToPDF />} /> */}
+          <Route path="/word-to-pdf" element={<WordToPDF />} />
         </Routes>
         
         <BottomNavbar />
